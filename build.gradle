@@ -26,7 +26,6 @@ repositories {
 }
 
 dependencies {
-    compile 'org.fusesource.jansi:jansi:1.11'
 }
 
 // To build:    $ gradle shadowJar
