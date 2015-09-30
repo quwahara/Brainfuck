@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.2'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+sourceCompatibility = 1.8
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Brainfuck',
+                   'Implementation-Version': version,
+                   'Main-Class' : 'brainfuck.Brainfuck'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.fusesource.jansi:jansi:1.11'
+}
+
+// To build:    $ gradle shadowJar
+// To run:      $ java -jar build/libs/Brainfuck-1.0-all.jar helloworld.bf
