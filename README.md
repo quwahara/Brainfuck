@@ -20,7 +20,7 @@ Gradleが使えることを前提にしています。
 
 ```bash
 $ git clone https://github.com/quwahara/Brainfuck
-$ cd Brainfuck/Brainfuck/
+$ cd Brainfuck
 $ gradle shadowJar
 $ java -jar build/libs/Brainfuck-1.0-all.jar helloworld.bf 500
 ```
