@@ -54,6 +54,22 @@ Import as general project
 Project Explorerのルートノードで右クリックし、
 Configure -> Covert to Gradle Project
 
+## NetBeansへのImport
+
+チーム -> Git -> クローン...
+
+### リモート・リポジトリ
+リポジトリURL: https://github.com/quwahara/Brainfuck.git
+
+### リモート分岐
+(default)
+
+### 宛先ディレクトリ
+(default)
+
+### クローン完了
+プロジェクトを開く
+
 ## ライセンス
 MIT ライセンスで公開しています。 ライセンスの全文は下で参照できます。
 https://raw.github.com/quwahara/Brainfuck/master/LICENSE
