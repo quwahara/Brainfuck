@@ -16,13 +16,12 @@ http://lowedu.connpass.com/
 ## 使い方
 
 Gradleが使えることを前提にしています。
-実行するにはコマンドライン引数に、Brainfuckのソースファイル名と、処理1回ごとの停止時間をミリ秒で指定します。
 
 ```bash
 $ git clone https://github.com/quwahara/Brainfuck
 $ cd Brainfuck
 $ gradle shadowJar
-$ java -jar build/libs/Brainfuck-1.0-all.jar helloworld.bf 500
+$ gradle run
 ```
 
 ## ライセンス
