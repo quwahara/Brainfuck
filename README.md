@@ -24,8 +24,36 @@ $ gradle shadowJar
 $ gradle run
 ```
 
+## EclipseへのImport
+
+### Eclipseメニューで
+File -> Import...
+
+### Select
+Git -> Projects from Git
+
+### Select Repository Source
+Clone URI
+
+### Source Git Repository
+URI: https://github.com/quwahara/Brainfuck.git
+
+### Branch Selection
+(default)
+
+### Local Destination
+(default)
+
+### Select a wizard to use for importintg projects
+Import as general project
+
+### Import Projects
+(default)
+
+### Wizardが終了したら
+Project Explorerのルートノードで右クリックし、
+Configure -> Covert to Gradle Project
+
 ## ライセンス
-
 MIT ライセンスで公開しています。 ライセンスの全文は下で参照できます。
-
 https://raw.github.com/quwahara/Brainfuck/master/LICENSE
