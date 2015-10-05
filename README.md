@@ -70,6 +70,24 @@ Configure -> Covert to Gradle Project
 ### クローン完了
 プロジェクトを開く
 
+## IntelliJ IDEAへのImport
+
+### IntelliJ IDEAメニューで
+File -> New -> Projet from Version Control -> GitHub
+
+### または、起動画面のWelcome to IntelliJ IDEAで
+Check out from Version Control -> GitHub
+
+### Clone Repository
+Git Repository URL: https://github.com/quwahara/Brainfuck.git
+
+### Checkout from Version Control
+Yes
+
+### Import Project from Gradle
+お使いの環境合わせて指定して下さい
+
+
 ## ライセンス
 MIT ライセンスで公開しています。 ライセンスの全文は下で参照できます。
 https://raw.github.com/quwahara/Brainfuck/master/LICENSE
