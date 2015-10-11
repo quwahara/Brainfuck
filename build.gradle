@@ -36,4 +36,4 @@ run {
 }
 
 // To build:    $ gradle shadowJar
-// To run:      $ gradle run
+// To run:      $ java -jar build/libs/Brainfuck-1.0-all.jar helloworld.bf
