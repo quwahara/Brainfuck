@@ -10,7 +10,7 @@ import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
 
 public class Brainfuck {
-    
+
     public static void main(String[] args) throws Exception {
 
         AnsiConsole.systemInstall();
