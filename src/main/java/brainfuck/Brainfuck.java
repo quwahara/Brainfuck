@@ -30,7 +30,7 @@ public class Brainfuck {
         }
 
         int pc = 0, ptr = 0;
-        char[] mem = new char[30000];
+        byte[] mem = new byte[30000];
         while (pc < bf.length()) {
             switch (bf.charAt(pc)) {
             case '<':
@@ -56,10 +56,10 @@ public class Brainfuck {
                 }
                 break;
             case '.':
-                System.out.print(mem[ptr]);
+                System.out.print((char) mem[ptr]);
                 break;
             case ',':
-                mem[ptr] = (char) System.in.read();
+                mem[ptr] = (byte) System.in.read();
                 break;
             default:
                 break;
