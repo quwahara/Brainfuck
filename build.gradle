@@ -7,6 +7,7 @@ buildscript {
     }
 }
 
+apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'com.github.johnrengelman.shadow'
@@ -29,5 +30,10 @@ dependencies {
     compile 'org.fusesource.jansi:jansi:1.11'
 }
 
+mainClassName = 'brainfuck.Brainfuck'
+run {
+    args(['helloworld.bf'])
+}
+
 // To build:    $ gradle shadowJar
-// To run:      $ java -jar build/libs/Brainfuck-1.0-all.jar helloworld.bf
+// To run:      $ gradle run
